@@ -1,0 +1,63 @@
+#workbenchPageContent, .CanvasZone {
+    max-width: unset;
+    border: none;
+}
+
+
+
+.stock-card {
+    padding: 60px;
+}
+
+
+.symbol {
+    font-size: 40px;
+}
+.price {
+    font-size: 60px;
+}
+
+
+button.ms-Pivot-link.is-selected::before {
+    border-bottom: 2px solid #34be78;
+}
+
+.chart {
+    min-width: 500px; /* placeholder for size */
+    min-height: 200px; /* placeholder for size */
+    padding-left: 60px;
+}
+.chart, .chart .ms-Pivot {
+    margin-bottom: 20px;
+}
+
+.arrow, 
+.chg {
+    font-size: 24px;
+}
+.arrow, .chg, .clock-icon, .timestamp {
+    margin-right: 8px;
+}
+
+.time-wrap {
+    padding-left: 180px;
+}
+ 
+.clock-icon,
+.timestamp {
+    color: #999;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+
+
+
+.dark.stock-card {
+    background-color: #333;
+}
+.dark .symbol,
+.dark .price,
+.dark .ms-Pivot button {
+    color: #aaa;
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-stock-widget-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointStockWidgetDemo/SharePointStockWidgetDemoWebPart.js",
+          "manifest": "./src/webparts/sharePointStockWidgetDemo/SharePointStockWidgetDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointStockWidgetDemoWebPartStrings": "lib/webparts/sharePointStockWidgetDemo/loc/{locale}.js"
+  }
+}

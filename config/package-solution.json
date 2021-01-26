@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-stock-widget-demo-client-side-solution",
+    "id": "2220336d-289d-4c9c-b9c8-9003d2bb2b87",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-stock-widget-demo.sppkg"
+  }
+}
